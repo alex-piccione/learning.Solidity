@@ -2,6 +2,8 @@
 
 [Introduction to Solidity](https://www.chainshot.com/learn/solidity)
 
+Current course stage: https://www.chainshot.com/content/5c36bf15143eed0017f5797560c95d80898f7b0715fe9704/stage/5c36bf15143eed0017f5797560c95d80898f7b0715fe9711
+
 ```javascript
 {
   "@babel/core": "7.2.2",
