@@ -2,7 +2,9 @@
 
 [Introduction to Solidity](https://www.chainshot.com/learn/solidity)
 
-Current course stage: https://www.chainshot.com/content/5c36bf15143eed0017f5797560c95d80898f7b0715fe9704/stage/5c36bf15143eed0017f5797560c95d80898f7b0715fe9711
+Current course stage: https://www.chainshot.com/content/5c36bf15143eed0017f5797560dd0b1c862e202fcc79c41b/stage/5c36bf15143eed0017f5797560dd0b1d862e202fcc79c42a
+
+From ChainsSHot documentation, this is the list of used libraries:
 
 ```javascript
 {

@@ -18,4 +18,26 @@ Ethereum Wiki: https://ethereum.org/en
 - https://dacade.org
   account created
 
-antonio.solinas.41-dacade@mailbox.org
+## Create a new Solidity project in VS
+
+From: https://blog.oliverjumpertz.dev/how-to-set-up-a-solidity-project-and-create-your-first-smart-contract
+
+The most prominent Solidity tooling is based on JavaScript. It runs on Node and requires an npm project.
+`npm init -y`
+
+## Learned stuff
+
+`block` is ...  
+.coinbase: the address of the miner  
+.number: the block number (uint256)  
+.timestamp: the timestamp of the block (uint256)
+
+`msg` is always available in a call (and in hte contructor?).  
+.data: full info  
+.value: the amount of ...  
+.sender: address of the acount whom sent the ETH
+
+_Events_ are used to persist data (log) of the call/transaction.
+
+`address(<address>)` to transform something to an _address_.  
+`payable(<address>)` to transform something to an _address payable_.

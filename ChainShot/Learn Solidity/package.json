@@ -1,3 +1,13 @@
 {
-    
+  "name": "learn-solidity",
+  "version": "1.0.0",
+  "description": "[Introduction to Solidity](https://www.chainshot.com/learn/solidity)",
+  "main": "index.js",
+  "scripts": {
+    "buid": "echo ???",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }
