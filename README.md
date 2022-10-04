@@ -7,6 +7,7 @@ Ethereum Wiki: https://ethereum.org/en
 
 ## Tutorials
 
+- https://hardhat.org
 - https://learnweb3.io
   REQUIRES SIGN IN
 - https://www.youtube.com/c/patrickcollins

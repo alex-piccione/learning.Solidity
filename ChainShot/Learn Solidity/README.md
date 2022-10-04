@@ -1,8 +1,7 @@
 # ChainShot - Learn Solidity
 
-[Introduction to Solidity](https://www.chainshot.com/learn/solidity)
-
-Current course stage: https://www.chainshot.com/content/5c36bf15143eed0017f5797560dd0b1c862e202fcc79c41b/stage/5c36bf15143eed0017f5797560dd0b1d862e202fcc79c42a
+[Introduction to Solidity](https://www.chainshot.com/learn/solidity): Completed
+https://www.chainshot.com/dashboard/5ebb8128f5958800121509d3
 
 From ChainsSHot documentation, this is the list of used libraries:
 
