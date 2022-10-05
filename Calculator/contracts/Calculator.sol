@@ -5,8 +5,12 @@ pragma solidity ^0.8.4;
 contract Calculator {
     int256 private int256_max = int256(0) - 1;
 
-    function sum(int256 a, int256 b) external view returns (int256) {
-        require(a + b <= int256_max, 'Function "sum" causes an overflow.');
+    function sum(int256 a, int256 b) external pure returns (int256) {
+        int256 result = a + b;
+        require(
+            result >= a && result >= b,
+            'Function "sum" causes an overflow.'
+        );
         return a + b;
     }
 }
