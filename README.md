@@ -4,6 +4,7 @@ Solidity is the programming language used to program smart contracts for Ethereu
 
 Solidity 0.8.4 Docs: https://docs.soliditylang.org/en/v0.8.4  
 Ethereum Wiki: https://ethereum.org/en
+Frameworks/Tools: https://ethereum.org/en/developers/local-environment
 
 ## Tutorials
 
@@ -19,12 +20,11 @@ Ethereum Wiki: https://ethereum.org/en
 - https://dacade.org
   account created
 
-## Create a new Solidity project in VS
+## Create a Solidity project in VS
 
 From: https://blog.oliverjumpertz.dev/how-to-set-up-a-solidity-project-and-create-your-first-smart-contract
-
-The most prominent Solidity tooling is based on JavaScript. It runs on Node and requires an npm project.
-`npm init -y`
+I followed this tutorial and create teh [Calculator](Calculator/README.md) folder.  
+It is a project using **Hardhat**.
 
 ## Learned stuff
 
