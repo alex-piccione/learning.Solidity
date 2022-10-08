@@ -21,3 +21,5 @@ Install Hardhat plugins:
 - "build": "hardhat compile",
 - "test": "hardhat test",
 - "test:coverage": "hardhat coverage"
+- "deploy:local": "hardhat run --network localhost scripts/deployMyContract.js"
+- "local-testnet": "hardhat node"
