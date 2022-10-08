@@ -26,6 +26,10 @@ From: https://blog.oliverjumpertz.dev/how-to-set-up-a-solidity-project-and-creat
 I followed this tutorial and create teh [Calculator](Calculator/README.md) folder.  
 It is a project using **Hardhat**.
 
+## Truffle token contract
+
+Setup in [Token-01C](Token-01C/Readme.md) folder.
+
 ## Learned stuff
 
 `block` is ...  

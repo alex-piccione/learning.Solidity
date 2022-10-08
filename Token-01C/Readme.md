@@ -8,4 +8,5 @@ Create a Nextjs app within TypeScript:
 `npx create-next-app@latest --ts`
 
 Install Truffle:
-`yarn add truffle -D`
+`npm install -g truffle` No, it cannot be installed as dev-deoendencies.  
+`truffle init`
