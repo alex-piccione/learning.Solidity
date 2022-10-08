@@ -10,3 +10,12 @@ Create a Nextjs app within TypeScript:
 Install Truffle:
 `npm install -g truffle` No, it cannot be installed as dev-deoendencies.  
 `truffle init`
+
+http://trufflesuite.com/docs
+
+Create an ETH address and store the secret key in a variable (load it from secrets file).  
+Create an Infura Web3 (ex. Ethereum) project and store the e key in a variable (project key, not the secret key).
+
+Install @openzellei contracts:
+`yarn add @openzeppelin/contracts -D`
+https://docs.openzeppelin.com
