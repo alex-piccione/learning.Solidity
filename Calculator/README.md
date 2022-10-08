@@ -15,3 +15,9 @@ Create project file structure, create these 3 folders: _contracts_, _scripts_, _
 
 Install Hardhat plugins:
 `npm install --save-dev @nomiclabs/hardhat-waffle @nomiclabs/hardhat-ethers ethereum-waffle chai ethers solidity-coverage`
+
+## NPM scripts
+
+- "build": "hardhat compile",
+- "test": "hardhat test",
+- "test:coverage": "hardhat coverage"
