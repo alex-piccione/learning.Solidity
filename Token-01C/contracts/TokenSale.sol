@@ -9,8 +9,7 @@ contract TokenSale {
     uint256 private tokenPrice = 50;
     address payable private ethFunds =
         payable(0x13D665d500F9b335d7bC26354e26bcA0C3f3F36a);
-    address payable private admin =
-        payable(0x3A61549d160Ff8ff6E833500F551457F8b957111);
+    address payable private admin;
     uint256 transactionsCount = 0;
     mapping(uint256 => Transaction) public transactions;
 
@@ -25,6 +24,7 @@ contract TokenSale {
 
     constructor(Token _token) {
         token = _token;
+        admin = payable(msg.sender);
         // Goerli testnet ETH/USD 0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e
         priceFeed = AggregatorV3Interface(
             0xD4a33860578De61DBAbDc8BFdb98FD742fA7028e

@@ -1,4 +1,5 @@
 const yaml = require("js-yaml");
+HDWalletProvider = require("@truffle/hdwallet-provider");
 const fs = require("fs");
 
 const doc = (() => {
