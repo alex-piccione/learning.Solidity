@@ -5,7 +5,7 @@ const fs = require("fs");
 const doc = (() => {
   try {
     const doc = yaml.load(fs.readFileSync("../.secrets.yml", "utf8"));
-    console.log(doc);
+    //console.log(doc);
     return doc;
   } catch (e) {
     console.error(e);

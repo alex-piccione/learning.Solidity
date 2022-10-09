@@ -7,7 +7,7 @@ uint256 constant initialSupply = 1000000;
 uint8 constant tokenDecimals = 3;
 
 contract Token is ERC20 {
-    constructor() ERC20("Token-01C", "01C") {
+    constructor() ERC20("Token-T1C", "T1C") {
         _mint(msg.sender, initialSupply * 10**tokenDecimals);
     }
 
