@@ -1,16 +1,19 @@
-const yaml = require("js-yaml")
-const fs = require("fs")
+const yaml = require("js-yaml");
+const fs = require("fs");
 
-// Get document, or throw exception on error
-try {
-  const doc = yaml.load(fs.readFileSync("../../.secrets.yml", "utf8"))
-  console.log(doc)
-} catch (e) {
-  console.log(e)
-}
+const doc = (() => {
+  try {
+    const doc = yaml.load(fs.readFileSync("../.secrets.yml", "utf8"));
+    console.log(doc);
+    return doc;
+  } catch (e) {
+    console.error(e);
+    process.exit(1);
+  }
+})();
 
-const address_secret_key = doc.address_secret_key
-const infura_key = doc.infura_key
+const infura_project_id = doc.projects.token_01c.infura_project_id;
+const address_private_key = doc.projects.token_01c.address_private_key;
 
 /**
  * Use this file to configure your truffle project. It's seeded with some
@@ -97,12 +100,7 @@ module.exports = {
     // Useful for deploying to a public network.
     // Note: It's important to wrap the provider as a function to ensure truffle uses a new provider every time.
     goerli: {
-      provider: () =>
-        new HDWalletProvider(
-          MNEMONIC,
-          //`https://goerli.infura.io/v3/${PROJECT_ID}`
-          `https://goerli.infura.io/v3/e4c7e7c27ebb4bc39ab943bf3c5a8d00`
-        ),
+      provider: () => new HDWalletProvider(address_private_key, `https://goerli.infura.io/v3/${infura_project_id}`),
       network_id: 5, // Goerli's id
       confirmations: 2, // # of confirmations to wait between deployments. (default: 0)
       timeoutBlocks: 200, // # of blocks before a deployment times out  (minimum/default: 50)
@@ -158,4 +156,4 @@ module.exports = {
   //     }
   //   }
   // }
-}
+};

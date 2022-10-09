@@ -9,7 +9,6 @@ contract TokenSale {
     uint256 private tokenPrice = 50;
     address payable private ethFunds =
         payable(0x13D665d500F9b335d7bC26354e26bcA0C3f3F36a);
-    // 0x13d665d500f9b335d7bc26354e26bca0c3f3f36a  // <- this one gives an error (checksum not correct)
     address payable private admin =
         payable(0x3A61549d160Ff8ff6E833500F551457F8b957111);
     uint256 transactionsCount = 0;
