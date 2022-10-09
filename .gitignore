@@ -1,4 +1,5 @@
 **/.secret*
+**/3rd party examples
 
 ## Node.js
 **/node_modules
