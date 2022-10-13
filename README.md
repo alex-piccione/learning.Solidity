@@ -28,6 +28,7 @@ It is a project using **Hardhat**.
 
 ## Truffle token contract
 
+Followed this tutorial: https://www.youtube.com/watch?v=BvGrTLmxkQQ&ab_channel=FacundoCarballo-English
 Setup in [Token-01C](Token-01C/Readme.md) folder.
 
 ## Learned stuff
