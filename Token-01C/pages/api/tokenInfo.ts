@@ -1,13 +1,9 @@
 import type { NextApiRequest, NextApiResponse } from "next"
-
-type TokenInfo = {
-  Name: string
-  Symbol: string
-  TotalSupply: Number
-}
+import TokenInfo from "../../models/TokenInfo"
 
 export default function handler(req: NextApiRequest, res: NextApiResponse<TokenInfo>) {
   const tokenInfo = {
+    Contract: "---------------",
     Name: "Token AAA",
     Symbol: "AAA",
     TotalSupply: 12345,

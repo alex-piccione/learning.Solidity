@@ -1,8 +1,6 @@
-import styles from "../styles/TokenInfoPanel.module.css"
 import axios from "axios"
 import { useEffect, useState } from "react"
-
-
+import TokenInfo from "../models/TokenInfo"
 
 const getTokenInfo = async () => {
     try {
@@ -21,14 +19,6 @@ const getTokenInfo = async () => {
           return 'An unexpected error occurred'
         }
     }
-}
-
-
-type TokenInfo = {
-    Name:string,
-    Symbol: string,
-    Contract:string,
-    TotalSupply: Number
 }
 
 const tokenInfoPanel = () => {
