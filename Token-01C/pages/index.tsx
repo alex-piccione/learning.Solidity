@@ -1,7 +1,7 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
-import TokenInfo from '../components/TokenInfo'
+import TokenInfoPanel from '../components/TokenInfoPanel'
 import styles from '../styles/Home.module.css'
 
 const Home: NextPage = () => {
@@ -18,7 +18,7 @@ const Home: NextPage = () => {
           Alex Token
         </h1>
 
-<TokenInfo />
+        <TokenInfoPanel />
 
         <p className={styles.description}>
           Get started by editing{' '}

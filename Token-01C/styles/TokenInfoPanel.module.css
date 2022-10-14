@@ -1,0 +1,19 @@
+.panel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-gap: 20px;
+    grid-template-rows: 0cm;
+}
+
+.row {
+    background: #17174a;
+    color: rgb(127, 174, 255);
+}
+
+.leftColumn {
+    width: 50%;    
+}
+
+.rightColumn {
+    width: 50%;
+}

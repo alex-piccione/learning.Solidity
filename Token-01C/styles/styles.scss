@@ -1,0 +1,46 @@
+$primary: rgb(16, 73, 116);
+$secondary: rgb(40, 56, 104);
+$backgroundColor: #ebebeb;
+$borderColor: #666;
+$textColor: #333;
+
+$space: 5px;
+$pad: $space;
+
+@mixin padded() {
+    padding: $pad*2;
+}
+
+
+.padded {
+    padding: $pad;
+}
+
+.red {
+    color: red;
+}
+
+.panel {
+    @include padded;
+    border-radius: 10px;
+    border:2px solid $borderColor;
+    background-color: $backgroundColor;
+    color: $textColor;
+}
+
+.panel-title {
+    color: $primary;
+    text-align: center;
+    margin: $space;
+    padding: $pad;
+}
+
+.columns-2 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.columns-2 > * {
+    flex: 1 1 50%;
+    padding: $pad;
+}
