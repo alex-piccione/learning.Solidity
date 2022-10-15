@@ -3,6 +3,9 @@
 Project using Truffle to deploy a token contract on Goerly network.
 
 Explorer: https://goerli.etherscan.io
+I chose ["ethers.js"](https://docs.ethers.io/ethers.js/v3.0/html/) as web3 library because it seems t osupport Typescript better.  
+https://docs.ethers.io/v5/cli/typescript  
+Check also _Moralis_.
 
 I used the private key of Dev-One account.
 

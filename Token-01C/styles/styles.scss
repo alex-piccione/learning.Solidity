@@ -44,3 +44,14 @@ $pad: $space;
     flex: 1 1 50%;
     padding: $pad;
 }
+
+.columns-2 > *:nth-child(odd) {
+    flex-basis: 25%;
+    color: $primary;
+}
+
+.columns-2 > *:nth-child(even) {
+    flex-basis: 75%;
+    font-weight: bold;
+}
+
