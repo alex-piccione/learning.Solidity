@@ -8,7 +8,9 @@
     "start": "next start",
     "lint": "next lint",
     "truffle:compile": "truffle compile",
-    "truffle:deploy:testnet": "truffle migrate --network goerli"
+    "truffle:deploy:testnet": "truffle migrate --network goerli",
+    "solc:abi": "solcjs ./contracts/Token.sol -o ./contracts/ABI --abi",
+    "solc": "solcjs --help"
   },
   "dependencies": {
     "@metamask/detect-provider": "^2.0.0",
@@ -29,6 +31,7 @@
     "js-yaml": "^4.1.0",
     "next": "12.3.1",
     "sass": "^1.55.0",
+    "solc": "^0.8.17",
     "typescript": "4.8.4"
   }
 }

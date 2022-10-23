@@ -86,3 +86,19 @@ Summary
 Contract address: 0x7F7aE0141E4D09e77198b4Bb9e280e2088C5eee8
 
 Admin account (Dev-One) has 1000000 "01C" tokens.
+
+## Get the ABI
+
+To complete some tasks you need the ABI of the contract.  
+In Etherscan the Contract address page shows the ABI in some place.  
+In Goerli it doesn't !
+
+To create the ABI from the contract source:  
+`solcjs filename.sol --abi`
+
+solcjs ./contracts/Token.sol --abi
+Error: "solc is not recognized"
+
+You need `solc` installed globally or a devdependency
+`npm install -g solc`
+`npm ls -g --depth=0`
