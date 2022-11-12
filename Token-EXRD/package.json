@@ -9,12 +9,11 @@
   },
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "@openzeppelin/contracts": "^3.1.0",
-    "truffle": "^5.1.37"
-  },
+  "dependencies": {},
   "devDependencies": {
+    "@openzeppelin/contracts": "^3.1.0",
     "@truffle/hdwallet-provider": "^2.1.0",
+    "truffle": "^5.1.37",
     "dotenv": "^16.0.3"
   },
   "_dependencies": {
